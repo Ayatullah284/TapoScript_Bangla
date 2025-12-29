@@ -27,3 +27,16 @@ function chase(){
 function caught(){
     console.log('Tom caugth Jerry:');
 }
+
+
+
+// test()
+
+var test = function(){
+    console.log('I am being tested')
+}
+
+x()
+const x = function(){
+    console.log('X')
+}
