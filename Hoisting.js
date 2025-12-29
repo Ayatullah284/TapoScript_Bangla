@@ -1,3 +1,5 @@
+// variable hosting
+
 console.log('name is ', nam);
 console.log('home: ', person)
 var nam;
@@ -10,3 +12,18 @@ person = {
 }
 console.log('name is ', nam)
 console.log('home: ', person.home)
+
+
+
+
+
+// function hosting 
+
+chase();
+function chase(){
+    console.log('Tom chases Jerry!');
+    caught(); 
+}
+function caught(){
+    console.log('Tom caugth Jerry:');
+}
